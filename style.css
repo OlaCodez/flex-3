@@ -1,0 +1,43 @@
+
+
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.main{
+    display: flex;
+    height: 80%;
+
+}
+
+.header{
+    background-color: goldenrod;
+    width: 100%;
+    height: 15%;
+}
+
+.content{
+    background-color: powderblue;
+    width: 75%;
+}
+
+.sider{
+    background-color: blue;
+    width: 25%;
+}
+
+.footer{
+    background-color: olive ;
+    width: 100%;
+    height: 15%;
+}
